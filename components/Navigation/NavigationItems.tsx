@@ -8,16 +8,24 @@ import { FaBook } from "react-icons/fa";
 import { MdOutlineRateReview } from "react-icons/md";
 
 const menuItems = [
-  { title: "Home", url: "/", icon: <AiOutlineHome suppressHydrationWarning /> },
-  { title: "Books", url: "/books", icon: <FaBook suppressHydrationWarning /> },
+  {
+    title: "Home",
+    url: "/kr",
+    icon: <AiOutlineHome suppressHydrationWarning />,
+  },
+  {
+    title: "Books",
+    url: "/kr/books",
+    icon: <FaBook suppressHydrationWarning />,
+  },
   {
     title: "Reviews",
-    url: "/reviews",
+    url: "/kr/reviews",
     icon: <MdOutlineRateReview suppressHydrationWarning />,
   },
   {
     title: "Community",
-    url: "/community",
+    url: "/kr/community",
     icon: <BsBrightnessHighFill suppressHydrationWarning />,
   },
 ];

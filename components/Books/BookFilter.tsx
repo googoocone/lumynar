@@ -1,11 +1,4 @@
 const bookFilterItem = [
-  // 문학 (Literature)
-  { id: "novel", name: "소설" },
-  { id: "poetry", name: "시" },
-  { id: "essay", name: "수필" },
-  { id: "drama", name: "희곡" },
-  { id: "children_literature", name: "아동 문학" },
-
   // 비문학 (Non-fiction)
   { id: "self_help", name: "자기계발서" },
   { id: "humanities", name: "인문학" },
@@ -22,7 +15,7 @@ const bookFilterItem = [
 
 const BookFilter = () => {
   return (
-    <div className="w-[150px] ml-8 rounded-lg shadow-2xl h-[80vh] overflow-y-auto no-scrollbar cursor-pointer">
+    <div className="w-[150px] ml-8 rounded-lg shadow-2xl overflow-y-auto no-scrollbar cursor-pointer">
       {bookFilterItem.map((item) => (
         <div
           key={item.id}

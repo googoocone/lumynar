@@ -1,6 +1,6 @@
 import BookCard from "@/components/Books/BookCard";
 import BookFilter from "@/components/Books/BookFilter";
-import { bookData } from "../dummyData";
+import { bookData } from "../../dummyData";
 
 const Books = () => {
   return (
@@ -14,8 +14,8 @@ const Books = () => {
           <div className="flex justify-center">
             <input
               type="text"
-              placeholder="책 제목, 저자 등으로 검색해 보세요."
-              className="w-1/2 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="어떤 책을 깊이 이해하고 싶으신가요?"
+              className="w-[450px] px-4 py-2  bg-white shadow-lg mt-5 mb-10 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
         </div>
